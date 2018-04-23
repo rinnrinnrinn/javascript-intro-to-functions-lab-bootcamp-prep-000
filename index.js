@@ -10,6 +10,12 @@ function whisper(string) {
 function logWhisper(string) {
   console.log('hello')
 }
-var lowercase = "I can't hear you!"
-  lowercase.toLowerCase(string) === lowercase
+function sayHiToGrandma(string) {
+expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
+}
+function sayHiToGrandma(string) {
+expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
+}
+function sayHiToGrandma(string) {
+expect(sayHiToGrandma('I love you Grandma')).toEqual("I love you too")
 }
