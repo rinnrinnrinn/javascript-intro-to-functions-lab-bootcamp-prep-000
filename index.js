@@ -11,11 +11,11 @@ function logWhisper(string) {
   console.log('hello')
 }
 function sayHiToGrandma(string) {
-expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
+expect(string('hello')).toEqual("I can't hear you!")
 }
 function sayHiToGrandma(string) {
-expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
+expect(string('HELLO')).toEqual("YES INDEED!")
 }
 function sayHiToGrandma(string) {
-expect(sayHiToGrandma('I love you, Grandma.')).toEqual("I love you too.")
+expect(string('I love you, Grandma.')).toEqual("I love you too.")
 }
