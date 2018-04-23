@@ -17,5 +17,5 @@ function sayHiToGrandma(string) {
 expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
 }
 function sayHiToGrandma(string) {
-expect(sayHiToGrandma('I love you Grandma')).toEqual("I love you too")
+expect(sayHiToGrandma('I love you, Grandma.')).toEqual("I love you too.")
 }
