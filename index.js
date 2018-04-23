@@ -10,7 +10,9 @@ function whisper(string) {
 function logWhisper(string) {
   console.log('hello')
 }
-expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
+function whisper(string) {
+  console.log
+}
 function sayHiToGrandma(string) {
 expect(string('HELLO')).toEqual("YES INDEED!")
 }
