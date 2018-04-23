@@ -10,12 +10,13 @@ function whisper(string) {
 function logWhisper(string) {
   console.log('hello')
 }
-function sa(string) {
-  console.log("I can't hear you!")
-}
-function (string) {
-expect(string('HELLO')).toEqual("YES INDEED!")
-}
 function sayHiToGrandma(string) {
-expect(string('I love you, Grandma.')).toEqual("I love you too.")
+ if (string.toLowerCase() === string) {
+ return "I can’t hear you!"
+} 
+if (string.toUpperCase() === string ) {
+ return "YES INDEED!”
 }
+if (string === "I love you, Grandma." ) {
+ return “I love you, too.”
+}}
