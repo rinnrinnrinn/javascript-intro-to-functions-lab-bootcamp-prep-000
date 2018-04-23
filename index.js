@@ -10,10 +10,10 @@ function whisper(string) {
 function logWhisper(string) {
   console.log('hello')
 }
-function whisper(string) {
-  console.log
+function sa(string) {
+  console.log("I can't hear you!")
 }
-function sayHiToGrandma(string) {
+function (string) {
 expect(string('HELLO')).toEqual("YES INDEED!")
 }
 function sayHiToGrandma(string) {
